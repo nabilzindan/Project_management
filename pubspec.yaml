@@ -1,0 +1,37 @@
+name: pos_toko
+description: Aplikasi Manajemen Toko Sederhana - CRUD Produk, Pesanan, Laporan, dan Cetak Kwitansi PDF.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # State Management
+  provider: ^6.1.2
+
+  # Database
+  sqflite: ^2.3.3+1
+  sqflite_common_ffi: ^2.3.4+4 # wajib untuk menjalankan SQLite di Windows/Linux desktop
+  path: ^1.9.0
+  path_provider: ^2.1.3
+
+  # PDF
+  pdf: ^3.11.1
+  printing: ^5.13.1
+
+  # Utils
+  intl: ^0.19.0
+  uuid: ^4.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
